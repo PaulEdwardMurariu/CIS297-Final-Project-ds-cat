@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="game.CreditsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XAMLAnimatedCanvasPong"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="HomeButton" Content="Home" Margin="441,324,0,0" VerticalAlignment="Top" Click="HomeButton_Click"/>
+        <TextBlock x:Name="creditsTextBlock" HorizontalAlignment="Left" Margin="441,189,0,0" TextWrapping="Wrap" Text="Amazing Pong by Eric" VerticalAlignment="Top" SelectionChanged="creditsTextBlock_SelectionChanged" Height="90"/>
+
+    </Grid>
+</Page>
