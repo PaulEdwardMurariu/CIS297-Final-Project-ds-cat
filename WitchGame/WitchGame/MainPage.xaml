@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="WitchGame.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WitchGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="start_button" Content="Button" Margin="529,490,0,0" VerticalAlignment="Top" Click="button_Click" RenderTransformOrigin="1.097,1.531"/>
+        <TextBlock x:Name="Title" HorizontalAlignment="Left" Margin="531,436,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.362,8.395" SelectionChanged="Title_SelectionChanged"/>
+        <TextBox x:Name="creditText" HorizontalAlignment="Left" Margin="855,436,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <Button x:Name="credits_button" Content="Button" Margin="858,490,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
